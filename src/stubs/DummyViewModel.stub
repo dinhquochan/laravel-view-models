@@ -1,0 +1,18 @@
+<?php
+
+namespace DummyNamespace;
+
+use DinhQuocHan\ViewModels\ViewModel;
+
+class DummyClass extends ViewModel
+{
+    /**
+     * Create a new view model instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        //
+    }
+}

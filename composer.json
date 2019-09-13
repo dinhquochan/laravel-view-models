@@ -1,0 +1,45 @@
+{
+    "name": "dinhquochan/laravel-view-models",
+    "homepage": "https://github.com/dinhquochan/laravel-view-models",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brent Roose",
+            "email": "brent@spatie.be",
+            "homepage": "https://spatie.be",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^6"
+    },
+    "require-dev": {
+        "orchestra/testbench": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DinhQuocHan\\ViewModels\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DinhQuocHan\\ViewModels\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DinhQuocHan\\ViewModels\\ViewModelsServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
